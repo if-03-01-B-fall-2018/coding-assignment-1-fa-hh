@@ -1,0 +1,109 @@
+#links {
+    width: 150px;
+    background: lightblue;
+    transition: width 2s;
+    transition-timing-function: ease-in-out;
+}
+
+#links a {
+    color: black;
+    text-decoration: none;
+}
+
+#links:hover {
+    width: 300px;
+}
+
+#topic {
+    border-bottom: solid;
+}
+
+h1 {
+    color: #111e6c;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    color: #111e6c;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3 {
+    color: #0f52ba;
+}
+
+#topic {
+    border-top: solid;
+}
+
+#information {
+    border-bottom: solid;
+}
+
+#transition {
+    border-bottom: solid;
+}
+
+#transition h2 {
+    width: 150px;
+    background: lightblue;
+    transition: width 2s;
+    transition-timing-function: ease-in-out;
+}
+
+#transition h2:hover {
+    width: 300px;
+    height: 50px;
+}
+
+#animation {
+    border-bottom: solid;
+}
+
+#animation h2 {
+    width: 130px;
+    background-color: lightgray;
+    animation-name: example;
+    animation-duration: 30s;
+}
+
+@keyframes example {
+    from {
+        background-color: lightblue;
+    }
+    to {
+        background-color: lightgreen;
+    }
+}
+
+#transformation {
+    border-bottom: solid;
+}
+
+#transformation h2 {
+    transform: rotateX(200deg);
+}
+
+#shadows {
+    border-bottom: solid;
+}
+
+#shadows h2 {
+    text-shadow: 2px 2px 5px rgb(92, 47, 47);
+}
+
+#gradiets {
+    border-bottom: solid;
+}
+
+#gradiets h2 {
+    width: 130px;
+    background-image: linear-gradient(lightgray, lightblue);
+}
+
+#corners h2 {
+    border-top: solid;
+    border-bottom: solid;
+    border-radius: 10px;
+}
